@@ -1,0 +1,62 @@
+Script started on 2020-03-27 19:56:37+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ g++ 18-[K[K00[K[K80010027.cpp -o cw
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o ki_1.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o ki_1.txt[A]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./cw -ki 2 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o ki_2.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 3 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o ki_3.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 4 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o ki_4.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 0.5 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o km_1.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 1 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o km_2.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 1.5 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o km_3.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o km_4.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o kn_1.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 1 -kf 0.5 -ps 0.03 -n 40 -o kn_2.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 1.5 -kf 0.5 -ps 0.03 -n 40 -o kn_3.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 2 -kf 0.5 -ps 0.03 -n 40 -o kn_4.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 0.5 -kf 0.1 -ps 0.03 -n 40 -o kf_1.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 0.5 -kf 0.2 -ps 0.03 -n 40 -o kf_2.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 0.5 -kf 0.3 -ps 0.03 -n 40 -o kf_3.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o kf_4.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.1 -n 40 -o ps_1.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.2 -n 40 -o ps_2.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.3 -n 40 -o ps_3.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.4 -n 40 -o ps_4.txt
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ gnuplot
+
+	G N U P L O T
+	Version 5.2 patchlevel 6    last modified 2019-01-01 
+
+	Copyright (C) 1986-1993, 1998, 2004, 2007-2018
+	Thomas Williams, Colin Kelley and many others
+
+	gnuplot home:     http://www.gnuplot.info
+	faq, bugs, etc:   type "help FAQ"
+	immediate help:   type "help"  (plot window: hit 'h')
+
+Terminal type is now 'wxt'
+gnuplot> set title "Different Values of ki , step = 1"
+gnuplot> set ylabel "Congestion Window Size"
+gnuplot> set xlabel "Time"
+gnuplot> plot 'ki_1.txt' w l, 'ki_2.txt' w l, 'ki_3.txt' w l, 'ki_4.txt' w l
+Gtk-[1;32mMessage[0m: [34m20:04:05.730[0m: Failed to load module "canberra-gtk-module"
+gnuplot> set title "Different Values of km , step = 0.5"
+gnuplot> set ylabel "Congestion Window Size"
+gnuplot> set xlabel "Time"
+gnuplot> plot 'km_1.txt' w l, 'km_2.txt' w l, 'km_3.txt' w l, 'km_4.txt' w l
+gnuplot> set title "Different Values of kn , step = 0.5"
+gnuplot> set ylabel "Congestion Window Size"
+gnuplot> set xlabel "Time"
+gnuplot> plot 'kn_1.txt' w l, 'kn_2.txt' w l, 'kn_3.txt' w l, 'kn_4.txt' w l
+gnuplot> set title "Different Values of kf , step = 0.1"
+gnuplot> set ylabel "Congestion Window Size"
+gnuplot> set xlabel "Time"
+gnuplot> plot 'kf_1.txt' w l, 'kf_2.txt' w l, 'kf_3.txt' w l, 'kf_4.txt' w l
+gnuplot> set title "Different Values of ps , step = 0.1"
+gnuplot> set ylabel "Congestion Window Size"
+gnuplot> set xlabel "Time"
+gnuplot> plot 'ps_1.txt' w l, 'ps_2.txt' w l, 'ps_3.txt' w l, 'ps_4.txt' w l
+gnuplot> exit
+]0;rishit@Rishit: ~/Desktop/CN/Lab-5[01;32mrishit@Rishit[00m:[01;34m~/Desktop/CN/Lab-5[00m$ exit
+exit
+
+Script done on 2020-03-27 20:06:45+05:30 [COMMAND_EXIT_CODE="0"]
