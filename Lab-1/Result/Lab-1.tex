@@ -1,0 +1,65 @@
+\title{Computer Networks - CS 214} % You may change the title if you want.
+
+\author{Rishit Saiya - 180010027, 
+Lab - 1 }
+
+\date{\today}
+
+\documentclass[12pt]{article}
+\usepackage{fullpage}
+\usepackage{enumitem}
+\usepackage{amsmath,mathtools}
+\usepackage{textcomp}
+\usepackage{hyperref}
+\begin{document}
+\maketitle
+
+\section{Warm-up Questions}
+\begin{enumerate}[label=(\alph*)]
+    \item Using the commands hostname \& hostname -I
+    \item Using the command arp -a
+    \item Using the command cat /etc/resolve.conf
+    \item The number represents the official number for this protocol as it will appear within the IP header.
+    \item Using the file etc/services.
+    \item I have used a light app named Network Info II to abstract the information regarding the same. I have attached the screenshots for the same in the images directory.
+\end{enumerate}
+
+\section{Ping Utility}
+
+    \begin{enumerate}[label=(\alph*)]
+        \item We get 100 per cent loss using the IIT Dharwad network. When I pinged my neighbour's IP address, I got 0 per cent loss.
+        \item Factors Influencing RTT Number of network hops – Intermediate routers or servers take time to process a signal, increasing RTT. The more hops a signal has to travel through, the higher the RTT. Traffic levels – RTT typically increases when a network is congested with high levels of traffic.
+        It is evident from the values I got in both the cases. \\
+        In the 100 per cent loss case, I got a latency of 3067ms for google.com whilst I got a latency of 3054ms pinging my neighbour's IP address.
+    \end{enumerate}
+    
+\section{Traceroute}
+    \begin{enumerate}[label=(\alph*)]
+        \item We see that it took 10 hops for the packet to redirect it to https://www.google.com.
+        The network map is as follows: \\
+        10.196.3.250 (source) \textrightarrow 10.250.209.251 \textrightarrow 61.0.239.225 \textrightarrow 218.248.235.217 \textrightarrow 218.248.235.218 \textrightarrow 218.248.253.14 \textrightarrow 172.217.163.206 (destination)
+
+        \item Using the flag --max-hops=50 to the traceroute command.
+        \item Traceroute sends out three packets per TTL increment. Each column corresponds to the time is took to get one packet back (round-trip-time).
+        \item The Time-to-Live (TTL) field of the IP header is defined to be a timer limiting the lifetime of a datagram. When a router forwards a packet, it must reduce the TTL by at least one. If it holds a packet for more than one second, it may decrement the TTL by one for each second.
+        This is the use of TTL field in Internet Control Message Protocol packets.
+    \end{enumerate}
+    
+\section{Configuration Files and information}
+    \begin{enumerate}[label=(\alph*)]
+    \item Using the location given and the command cat /etc/hostname
+    \item We have to use the command arp -a. This information is not found in any of the configuration files mentioned.
+    \item Using the location and the command cat /etc/resolve.conf
+    \item The number represents the official number for this protocol as it will appear within the IP header.
+    \item Using the location given and the command cat etc/services.
+    \end{enumerate}
+
+\section{Wireshark Application}
+\begin{enumerate}[label=(\alph*)]
+    \item Images directory has all the screenshots of the working on the Wireshark application as mentioned above.
+    \item  The black highlighted packet identifies TCP packets with problems - for example, they could have been delivered out-of-order.
+    \item Putting http in the filter bar or to filter out more in a better way we use the http.host=="IP Address"
+    \item UDP Stream is preferred for DNS because it is fast and has low overhead. A DNS query is a single UDP request from the DNS client followed by a single UDP reply from the server. When a host requests a web page, transmission reliability and completeness must be guaranteed. Therefore, HTTP uses TCP as its transport layer protocol.
+    \end{enumerate}
+
+\end{document}
