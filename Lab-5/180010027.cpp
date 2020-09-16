@@ -69,7 +69,7 @@ CLI:
 
      g++ main.cpp -o cw
 
-     /cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o ki_1.txt
+    ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o ki_1.txt
     ./cw -ki 2 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o ki_2.txt
     ./cw -ki 3 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o ki_3.txt
     ./cw -ki 4 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o ki_4.txt
@@ -85,9 +85,9 @@ CLI:
     ./cw -ki 1 -km 2 -kn 2 -kf 0.5 -ps 0.03 -n 40 -o kn_4.txt
 
     ./cw -ki 1 -km 2 -kn 0.5 -kf 0.1 -ps 0.03 -n 40 -o kf_1.txt
-    /cw -ki 1 -km 2 -kn 0.5 -kf 0.2 -ps 0.03 -n 40 -o kf_2.txt
-    /cw -ki 1 -km 2 -kn 0.5 -kf 0.3 -ps 0.03 -n 40 -o kf_3.txt
-    /cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o kf_4.txt
+    ./cw -ki 1 -km 2 -kn 0.5 -kf 0.2 -ps 0.03 -n 40 -o kf_2.txt
+    ./cw -ki 1 -km 2 -kn 0.5 -kf 0.3 -ps 0.03 -n 40 -o kf_3.txt
+    ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.03 -n 40 -o kf_4.txt
 
     ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.1 -n 40 -o ps_1.txt
     ./cw -ki 1 -km 2 -kn 0.5 -kf 0.5 -ps 0.2 -n 40 -o ps_2.txt
