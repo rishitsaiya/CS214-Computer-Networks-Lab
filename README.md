@@ -15,3 +15,5 @@ This lab course mainly concentrated on implementing the concepts taught in the C
     Implementation of POP3 & SMTP (Mail Management System).
 5. [Lab5](https://github.com/rishitsaiya/Computer-Networks-Lab/tree/master/Lab-5) </br>
     Implementation of Congestion Control.
+
+The commands to run the codes are given at the end of C/C++ codes.
