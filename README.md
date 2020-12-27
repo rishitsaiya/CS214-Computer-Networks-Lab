@@ -1,5 +1,5 @@
 # Computer-Networks-Lab
-[![HitCount](http://hits.dwyl.com/rishitsaiya/Computer-Networks-Lab.svg)](http://hits.dwyl.com/rishitsaiya/Computer-Networks-Lab)
+
 
 Computer Networks Lab (CS 214), IIT Dharwad.
 
